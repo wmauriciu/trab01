@@ -1,12 +1,13 @@
-# TRABALHO 01:  Título do Trabalho
+# TRABALHO 01:  Cartão do torcedor
 Trabalho desenvolvido durante a disciplina de BD1
 
 # Sumário
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-primeiro_componente_do_grupo:email_primeiro_componente@dominio.com<br>
-segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
+Gustavo Graciliano:gustavo.graciliano@gmail.com<br>
+Pedro Cruz :pedrocruzns@gmail.com<br>
+Wagner Maurício :wmauriciu@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
