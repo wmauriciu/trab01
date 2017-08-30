@@ -4,22 +4,37 @@ Trabalho desenvolvido durante a disciplina de BD1
 # Sumário
 
 ### 1. COMPONENTES<br>
-Integrantes do grupo<br>
+<br>
 Gustavo Graciliano:gustavo.graciliano@gmail.com<br>
 Pedro Cruz :pedrocruzns@gmail.com<br>
 Wagner Maurício :wmauriciu@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
+Este documento contém a especificação do projeto do banco de dados do Cartão do Torcedor 
 <br>e motivação da escolha realizada. <br>
 
 ### 3.MINI-MUNDO<br>
+<strong>O sistema em si:</strong>
+O sistema, apesar de estar vinculado ao acesso de torcedores ao estádio de futebol,<br> 
+não tem relação com ingresso. Os serviços serão oferecidos para o governo e terão dois usuários,<br>
+os torcedores e as empresas gestoras dos estádios. O primeiro usará para se cadastrar e poder ter o <br>
+acesso ao estádio e o segundo usará para ter o controle de acesso de torcedores e o bloqueio daquele <br>
+torcedor que foi proibido judicialmente de frequentar o estádio.<br>
+<br>
+<strong>Banco de dados:</strong><br>
+O banco de dados, terá o cadastro de todos os torcedores que frequentarem os estádios pelo menos uma vez, <br>
+dentro dos campos com as informações terá o status com a informação se ele está ou não liberado para frequentar o estádio.<br>
+Esse status será verificado com a lista fornecida pelo TJ de cada estado.<br>
+<br>
+<strong>Aplicação:</strong>
+O usuário poderá fazer o seu próprio cadastro pelo site ou realizar o cadastro no estádio antes da partida. <br>
+No cadastro será pedido os dados pessoais do torcedor, como nome, documentos e endereço e uma senha para acesso ao site. <br>
+Para a verificação da liberação do torcedor o mesmo recepcionista que irá validar os ingressos irá validar o ID do torcedor.<br>
+O link abaixo mostra a lista da FPF (Federação Paulista de Futebol) de torcedores que foram julgados e proibidos<br>
+pela justiça de frequentar os estádios atualizada pela última vez dia 03/08/2017. Nela existem as mesmas informações<br>
+fornecidas pelo torcedor durante o cadastro além da data de início da punição e data de término da mesma.<br>
+<a href="http://2016.futebolpaulista.com.br/ListadeTorcedoresPunidos.pdf" target="_blank">Lista de Torcedores Punidos</a>
 
-Descrever o mini-mundo! (Não deve ser maior do que 30 linhas) <br>
-Entrevista com o usuário e identificação dos requisitos.<br>
-Descrição textual das regras de negócio definidas como um  subconjunto do mundo real 
-cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
-gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
